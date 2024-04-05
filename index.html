@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quote Generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Random Quote Generator</h1>
+  <div class="white-box">
+    <div class="quote">
+      <i class="fa fa-quote-left fa-3x"></i>
+      <p class="random-quote"><span id="text"></span></p>
+    </div>
+    <div class="random-author">- <span id="author"></span></div>
+    <div class="buttons">
+      <a id="tweet" href="https://twitter.com/intent/tweet" title="Tweet this!" target="_blank">
+        <button class="button"><i class="fa fa-twitter"></i></button>
+      </a>
+      <div class="new-quote-button">
+        <button class="button" id="new-quote">New Quote</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
